@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Language and Environment */
+    "target": "es6",
+    "lib": ["es5", "es2015", "es2016", "dom", "esnext"],
+    "jsx": "react",
+
+    /* Modules */
+    "module": "es2015",
+    "moduleResolution": "node",
+    "types": ["node"],
+
+    /* Emit */
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist/esm",
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
